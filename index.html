@@ -17,16 +17,38 @@
             margin-top: 2rem;
             display: block;
             text-align: center;
+            margin-bottom:2rem;
             
         }
+
+        .div-output-head{
+            font-size: 23px;
+            margin-bottom: 2rem;
+        }
+
+        #output-area{
+            display: block;
+            width: 90%;
+            height: 300px;
+            margin: auto;
+            border: solid;
+            
+        
+        }
+
     </style>
    
 </head>
 <body>
     <h1>Hey human</h1>
-    <textarea id="text" ></textarea>
+    <textarea id="text" > </textarea>
     <button id="translate" >Click me to translate</button>
+
+    <div class="div-output-head">The translation in banana language is : </div>
+    <div id="output-area"></div>
+
 
     <script src="app.js" type="text/javascript"></script>
 </body>
-</html>
+
+</html> 
