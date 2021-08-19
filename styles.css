@@ -1,0 +1,31 @@
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    width: 50vw;
+    text-align: center;
+}
+
+#output-area{
+    display: block;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    border: solid;
+    background-color: white;
+    border-radius: 1rem;
+    
+
+}
+
+#translate{
+   max-width: 50%;
+   margin: auto;
+   padding: .5rem;
+   border: solid black;
+   border-radius: 1rem;
+}
+
+body{
+    background-color: yellow;
+}
